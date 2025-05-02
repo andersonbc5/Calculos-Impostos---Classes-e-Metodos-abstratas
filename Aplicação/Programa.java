@@ -31,7 +31,9 @@ public class Programa {
 
             System.out.print("Nome: "); 
             sc.nextLine(); // Consome a quebra de linha pendente
-            String name = sc.nextLine(); // Solicita a renda anual
+            String name = sc.nextLine();
+
+            System.out.print("Renda anual: R$ ");
             double rendaAnual = sc.nextDouble(); 
 
             // Verifica se é pessoa física
